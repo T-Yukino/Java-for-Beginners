@@ -10,13 +10,13 @@ public class RectIf extends MyFrame{
 			if(i<9) {
 				setColor(x,x,x);
 				fillRect(y,50,10,100);
-			x+=28;
+			x+=20;
 			y+=20;
 			}
 			else {
 				setColor(x,x,x);
 				fillRect(y,50,10,100);
-				x-=28;
+				x-=20;
 				y+=20;
 			}
 			
