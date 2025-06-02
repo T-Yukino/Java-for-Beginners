@@ -125,7 +125,7 @@ public class Animation extends MyFrame{
 		
 
 		
-		while(true)	{
+		/*while(true)	{
 			
 			int x=50;
 			int y=50;
@@ -168,7 +168,9 @@ public class Animation extends MyFrame{
 				sleep(0.1);
 			}
 			
-		}
+		}*/
+		
+			
 		
 	}
 
