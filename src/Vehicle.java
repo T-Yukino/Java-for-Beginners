@@ -16,6 +16,13 @@ public class Vehicle {
 	public void move() {
 		x+=vx;
 		y+=vy;
+		
+		if(x>500) {
+			x-=500;
+		}
+		else if(x<-100) {
+			x+=500;
+		}
 	}
 
 }

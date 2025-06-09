@@ -10,6 +10,7 @@ public class DisplayVehicleVector extends MyFrame{
 		vehicles.add(new Truck(10,320,2,0));
 		vehicles.add(new Truck(10,380,6,0));
 		
+		while(true) {
 		for(int i=0; i<30; i++) {
 			clear();
 			
@@ -18,6 +19,7 @@ public class DisplayVehicleVector extends MyFrame{
 				vehicles.get(j).move();
 			}
 			sleep(0.05);
+		}
 		}
 	}
 
