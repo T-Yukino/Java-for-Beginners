@@ -15,7 +15,7 @@ public class Car {
 		frame.fillRect(x-10, y-20, 80, 20);
 	}
 	public void move() {
-		x+=vx;
+		x+=vx++;
 		y+=vy;
 		
 		if(x>450) {

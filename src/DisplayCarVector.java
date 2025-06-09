@@ -6,7 +6,7 @@ public class DisplayCarVector extends MyFrame{
 		
 		for(int i=0;i<5 ;i++) 
 		{
-		cars.add(new Car(50,50*i+100,i+1,0));
+		cars.add(new Car(50,70*i+100,i+1,0));
 		}
 		
 		while(true)
