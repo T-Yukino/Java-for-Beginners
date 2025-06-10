@@ -10,18 +10,19 @@ public class Vehicle {
 	}
 	
 	public void draw(MyFrame f) {
+	
 		
 	}
 	
-	public void move() {
+	public void move(MyFrame frame) {
 		x+=vx;
 		y+=vy;
 		
-		if(x>500) {
-			x-=500;
+		if(x> frame.getWidth()) {
+			x-= frame.getWidth()+100;
 		}
-		else if(x<-100) {
-			x+=500;
+		if(x< -100) {
+			x+= frame.getWidth()+100;
 		}
 	}
 

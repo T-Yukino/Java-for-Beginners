@@ -16,9 +16,9 @@ public class DisplayVehicleVector extends MyFrame{
 			
 			for(int j=0; j<vehicles.size(); j++) {
 				vehicles.get(j).draw(this);
-				vehicles.get(j).move();
+				vehicles.get(j).move(this);
 			}
-			sleep(0.05);
+			sleep(0.01);
 		}
 		}
 	}
